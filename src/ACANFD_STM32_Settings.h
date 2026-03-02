@@ -12,6 +12,8 @@
   #include "ACANFD_STM32_NUCLEO_H743ZI2-settings.h"
 #elif defined (ARDUINO_NUCLEO_G431KB)
   #include "ACANFD_STM32_NUCLEO_G431KB-settings.h"
+#elif defined (ARDUINO_NUCLEO_G431RB)
+  #include "ACANFD_STM32_NUCLEO_G431RB-settings.h"
 #elif defined (ARDUINO_NUCLEO_G474RE)
   #include "ACANFD_STM32_NUCLEO_G474RE-settings.h"
 #elif defined (ARDUINO_WEACT_G474CE)

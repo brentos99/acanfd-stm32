@@ -8,6 +8,8 @@
   #include "ACANFD-STM32-programmable-ram-sections.h"
 #elif defined (ARDUINO_NUCLEO_G431KB)
   #include "ACANFD-STM32-fixed-ram-sections.h"
+#elif defined (ARDUINO_NUCLEO_G431RB)
+  #include "ACANFD-STM32-fixed-ram-sections.h"
 #elif defined (ARDUINO_NUCLEO_G474RE)
   #include "ACANFD-STM32-fixed-ram-sections.h"
 #elif defined (ARDUINO_WEACT_G474CE)
